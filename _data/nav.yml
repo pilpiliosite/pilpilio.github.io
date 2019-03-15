@@ -1,17 +1,17 @@
 - name: Home
-  path: pilpil.io
+  path: index.html
   section_id:
   children:
     - name:
       path:
 - name: Tours
-  path: pilpil.io/tours
+  path: tours.html
   section_id:
   children:
     - name:
       path:
 - name: Contact
-  path: pilpil.io/contact
+  path: contact.html
   section_id:
   children:
     - name:
