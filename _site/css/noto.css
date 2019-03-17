@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'Noto Sans', sans-serif;
+  ;
+  src: url("../fonts/noto/NotoSans-Regular.ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Noto Sans', sans-serif;
+  src: url("../fonts/noto/NotoSans-Bold.ttf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Noto Sans', sans-serif;
+  src: url("../fonts/noto/Chivo-Black.ttf");
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: 'Noto Sans', sans-serif;
+  src: url("../fonts/noto/Chivo-Light.ttf");
+  font-weight: 300;
+}
+
+

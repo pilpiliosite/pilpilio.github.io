@@ -11,19 +11,23 @@ slides:
   image_bottom: images//arrows.png
   background: images/7a.jpg
   
-principles:
+principles_left:
 - title: Spiced up Tours
-  desc: Pilpili means pepper. In each of our tours, you will find an extra flavour, beyond the standard tourist experience. Whether you are a nature lover, keen about traditional music, or political situation, we will work with you to meet your interests.
-  icon: icon-basic-heart
-- title: Socially responsible
-  desc: We want to make sure that both our clients and the local community benefit from the growth of the tourism in Georgia. We work with the local businesses, stay with local people and make sure to avoid the tourist traps during all our trips
-  icon: icon-basic-flag2
-- title: Environmentally conscious
-  desc: We believe that nature is Georgia’s biggest treasure and we do all we can to protect it. “Leave no trace” is an important part of our philosophy, especially in mountains. We ensure that our tours are organised with the highest respect to the natural environment.
-  icon: icon-basic-paperplane
+  content: Pilpili means pepper. In each of our tours, you will find an extra flavour, beyond the standard tourist experience. Whether you are a nature lover, keen about traditional music, or political situation, we will work with you to meet your interests.
+  icon: icon-basic-map
 - title: Flexible and personal
-  desc: We want our tours to meet your needs and expectations. Would you like to visit a place or have an experience which you didn’t find in one of our tours? Organise a business tour? Let us know and we will do our best to find the most satisfying personalised solutions for you!
-  icon: icon-basic-compass
+  content: Would you like to visit a place or have an experience which you didn’t find in one of our tours? Organise a business tour? Let us know and we will do our best to find the most satisfying personalised solutions for you!
+  icon: icon-arrows-shrink
+principles_right:
+- title: Socially responsible
+  content: We want to make sure that both our clients and the local community benefit from the growth of the tourism in Georgia. We work with the local businesses, stay with local people and make sure to avoid the tourist traps during all our trips
+  icon: icon-basic-heart
+- title: Environmentally conscious
+  content: We believe that nature is Georgia’s biggest treasure and we do all we can to protect it. “Leave no trace” is an important part of our philosophy, especially in mountains. We ensure that our tours are organised with the highest respect to the natural environment.
+  icon: icon-basic-world
+
+
+
 ---
 
 <div class="full no-padding">
@@ -70,24 +74,7 @@ principles:
   <div class="two spacing"></div>
 </div>
 
-<div class="full centered-text light-grey">
-  <div class="section-title small">
-    <div class="row">
-      <div class="medium-10 medium-centered columns">
 
-        <div class="spacing"></div>
-        <h2>Who is Pilpilio?</h2>
-      </div>
-    </div>
-  </div>
-  <div class="row">
-    <div class="medium-12 medim-centered columns">
-      <p class="big-text">
-       We are a young team that has a simple goal: To show you the best out of Georgia. We will introduce you its beautiful nature, rich culture, share the tales about its past and help you to understand the most recent development or even find investment and business opportunities. We have lived in various places, travelled the world, seen numerous of its wonders, hiked dozens of mountains and worked with many international groups. Then we decided to come back to Georgia and design and curate beautiful experiences for those who are coming to see our country. We know the best of what our country has to offer. We are ready to experiment, offer you an adventure and a peek to the backstage, behind the usual tourist facades. At the same time, we recognise the highest standards of the services that we offer to our clients. We take the responsibility, so you can relax and enjoy.
-      </p>
-    </div>
-  </div>
-</div>
 <div class="full centered-text">
   <div class="section-title">
     <div class="row">
@@ -96,16 +83,40 @@ principles:
       </div>
     </div>
   </div>
-  <div class="row">
-    {% for principle in page.principles %}
-      <div class="large-3 columns">
-        <div class="principle">
-          <i class="{{principle.icon}}"></i>
-          <h4>{{principle.title}}</h4>
-          <p>{{principle.desc}}</p>
+</div>
+
+<div class="row">
+  <div class="large-6 columns">
+    {% for principle in page.principles_left %}
+    <div class="quote reverse wow slideInLeft" class="wow" data-wow-delay="{{ 0.2 | times:forloop.index0 }}s">
+        <div class="row">
+          <div class="large-12 columns">
+              <div class="principle">
+                  <i class="{{principle.icon}}"author">{{principle.title}}</i>
+                </div>
+          </div>
+          <div class="small-12 columns">
+            <p>{{principle.content}}</p>
+          </div>
         </div>
       </div>
     {% endfor %}
- </div>
+  </div>
+  <div class="large-6 columns">
+    {% for principle in page.principles_right %}
+      <div class="quote reverse wow slideInRight" class="wow" data-wow-delay="{{ 0.2 | times:forloop.index0 }}s">
+          <div class="row">
+              <div class="large-12 columns">
+                  <div class="principle">
+                <i class="{{principle.icon}}"author">{{principle.title}}</i>
+              </div>
+              </div>
+              <div class="small-12 columns">
+                <p>{{principle.content}}</p>
+              </div>
+            </div>
+          </div>
+    {% endfor %}
+  </div>
 </div>
-
+</div>
