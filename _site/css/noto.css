@@ -13,13 +13,13 @@
 
 @font-face {
   font-family: 'Noto Sans', sans-serif;
-  src: url("../fonts/noto/Chivo-Black.ttf");
+  src: url("../fonts/noto/noto-Black.ttf");
   font-weight: 900;
 }
 
 @font-face {
   font-family: 'Noto Sans', sans-serif;
-  src: url("../fonts/noto/Chivo-Light.ttf");
+  src: url("../fonts/noto/noto-Light.ttf");
   font-weight: 300;
 }
 
