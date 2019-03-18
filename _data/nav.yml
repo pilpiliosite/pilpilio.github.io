@@ -2,5 +2,7 @@
   path: index.html
 - name: Tours
   path: tours.html
+- name: About
+  path: about.html
 - name: Contact
   path: contact.html
