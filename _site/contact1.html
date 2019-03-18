@@ -5,6 +5,8 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="origin" />
+
 
   <title>Pilpilio</title>
   <meta name="description" content="">
@@ -128,12 +130,12 @@
           <p id='thanks' class='hide'>
             Thanks for contacting us, we'll be in touch soon!
           </p>
-          <input class='required' name='name' placeholder='NAME' type='text'>
-          <input class='required email' name='email' placeholder='EMAIL' type='text'>
-          <input class='required' name='subject' placeholder='SUBJECT' type='text'>
-          <textarea class='required' name='message' placeholder='MESSAGE'></textarea>
-          <div class='spacing'></div>
-          <input class='button small boxed brown' type='submit'>
+          <form method="POST" action="http://formspree.io/info@pilpil.io">
+            <input type="email" name="email" placeholder="Your email">
+            <br>
+            <textarea name="message" placeholder="Your message"></textarea>
+            <button type="submit">Send</button>
+          </form>
         </form>
       </div>
     </div>

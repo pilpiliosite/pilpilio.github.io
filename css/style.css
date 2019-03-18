@@ -69,12 +69,13 @@
   background-attachment: fixed; }
 
 .full.tree {
+  position: relative;
   min-height: 60%;
-  background-image: url(../images/@stock/tree.png);
+  background-image: url(../images/7a.jpg);
   background-repeat: no-repeat;
-  background-position: center 55%;
+  background-position: center 100%;
   background-attachment: fixed; }
-  
+      
 .full.logo {
   min-height: 60%;
   background-image: url(../images/3.png);
