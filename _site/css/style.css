@@ -362,11 +362,11 @@ body {
   padding-top: 0 !important; }
 
 .contain-to-grid {
-  background: #333;
+  background: #AB8860;
   position: absolute;
   z-index: 99; }
   .contain-to-grid .top-bar {
-    background: #333;
+    background: #AB8860;
     max-width: 100%; }
 
 .top-bar-section ul li > a {
