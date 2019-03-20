@@ -399,11 +399,11 @@ body {
 }
 
 .contain-to-grid {
-  background: #AB8860;
+  background: transparent;
   position: absolute;
   z-index: 99;
   .top-bar {
-    background: #AB8860;
+    background: transparent;
     max-width: 100%;
   }
 }
