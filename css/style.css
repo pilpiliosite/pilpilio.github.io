@@ -362,11 +362,11 @@ body {
   padding-top: 0 !important; }
 
 .contain-to-grid {
-  background: transparent;
+  background: #333;
   position: absolute;
   z-index: 99; }
   .contain-to-grid .top-bar {
-    background: transparent;
+    background: #333;
     max-width: 100%; }
 
 .top-bar-section ul li > a {
@@ -638,7 +638,7 @@ nav.wrapper {
   width: 49%; }
 
 .post, .recent-post {
-  color: #666;
+  color: #fff;
   border-bottom: 1px solid #eee;
   margin-bottom: 50px;
   padding: 0 5px 20px;
@@ -669,7 +669,7 @@ nav.wrapper {
     .post p.info a, .recent-post p.info a {
       color: #AB8860; }
     .post p.info a:hover, .recent-post p.info a:hover {
-      color: #666; }
+      color: #fff; }
   .post .button:hover, .recent-post .button:hover {
     opacity: 1; }
   .post a.button.red, .recent-post a.button.red {
@@ -684,7 +684,7 @@ nav.wrapper {
     font-size: 14px;
     margin-bottom: 30px; }
     .recent-post p.info a {
-      color: #666; }
+      color: #fff; }
     .recent-post p.info a:hover {
       color: #AB8860; }
 
@@ -1331,7 +1331,7 @@ form.update-form input.button:hover {
 
 /* Sidebar */
 .sidebar {
-  color: #666;
+  color: #fff;
   padding-left: 20px; }
   .sidebar h4 {
     margin-bottom: 30px; }

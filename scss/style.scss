@@ -399,11 +399,11 @@ body {
 }
 
 .contain-to-grid {
-  background: transparent;
+  background: #333;
   position: absolute;
   z-index: 99;
   .top-bar {
-    background: transparent;
+    background: #333;
     max-width: 100%;
   }
 }
@@ -727,7 +727,7 @@ nav.wrapper {
 }
 
 .post, .recent-post {
-  color: #666;
+  color: #fff;
   border-bottom: 1px solid #eee;
   margin-bottom: 50px;
   padding: 0 5px 20px;
@@ -755,7 +755,7 @@ nav.wrapper {
       color: #AB8860;
     }
     a:hover {
-      color: #666;
+      color: #fff;
     }
   }
   .button:hover {
@@ -776,7 +776,7 @@ nav.wrapper {
     font-size: 14px;
     margin-bottom: 30px;
     a {
-      color: #666;
+      color: #fff;
     }
     a:hover {
       color: #AB8860 ;
@@ -1453,7 +1453,7 @@ form.update-form {
 
 /* Sidebar */
 .sidebar {
-  color: #666;
+  color: #fff;
   padding-left: 20px;
   h4 {
     margin-bottom: 30px;
