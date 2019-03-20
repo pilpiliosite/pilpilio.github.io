@@ -1235,10 +1235,10 @@ form.update-form input.button:hover {
     display: block;
     margin-bottom: 5px; }
   .footer .back-to-top a {
-    color: #fff;
+    color: #000;
     text-transform: uppercase; }
   .footer .back-to-top a:hover {
-    color: #eee; }
+    color: #000; }
 
 /* fullscreen video */
 .video-bg {
