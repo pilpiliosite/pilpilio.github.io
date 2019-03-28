@@ -6,7 +6,7 @@
   path: about.html
 - name: Contact
   path: contact.html
-- name: Change Language
-  children:
-  - name: <a href="https://pilpil.io/cz">Czech</a>
-  - name: <a href="https://pilpil.io">Chinese</a>
+- name: <a href="https://pilpil.io/cn"><span class='flag-icon flag-icon-cn'></span></a>
+- name: <a href="https://pilpil.io/cz"><span class='flag-icon flag-icon-cz'></span></a>
+
+
