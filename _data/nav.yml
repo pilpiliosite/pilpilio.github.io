@@ -8,5 +8,5 @@
   path: contact.html
 - name: Change Language
   children:
-  - name: <a href="https://pilpil.io">English</a>
+  - name: <a href="https://pilpil.io/cz">Z=Czech</a>
   - name: <a href="https://pilpil.io">Chinese</a>
