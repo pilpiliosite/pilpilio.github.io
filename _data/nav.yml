@@ -6,3 +6,7 @@
   path: about.html
 - name: Contact
   path: contact.html
+- name: Change Language
+  children:
+  - name: <a href="https://pilpil.io">English</a>
+  - name: <a href="https://pilpil.io">Chinese</a>
