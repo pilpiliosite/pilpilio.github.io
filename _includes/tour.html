@@ -1,0 +1,69 @@
+---
+layout: default
+---
+
+<div class="full">
+  <div class='row'>
+    <div class='large-12 columns'>
+      {% for plan in page.plan %}
+
+      <div class='slides'>
+        <div class='slide'>
+          <img alt="" src="{{site.url}}/{{plan.image}}" />
+        </div>
+        <div class='slide'>
+          <img alt="" src="{{site.url}}/{{plan.image1}}" />
+        </div>
+      </div>
+
+    </div>
+    {% endfor %}
+
+  </div>
+  <div class="two spacing"></div>
+  <div class="row">
+    <div class="large-8 columns">
+      <div class="project-intro">
+        <h2>{{page.title}}</h2>
+        <p>{{page.desc}}</p>
+    <table>
+<thead>
+<tr>
+<th></th>
+<th>Tour Plan</th>
+</tr>
+</thead>
+<tbody>
+  {% for plan in page.plan %}
+
+<tr>
+<td>{{plan.title}}</td>
+<td>{{plan.desc}}</td>
+</tr>
+{% endfor %}
+
+</tbody>
+</table>
+
+      </div>
+    </div>
+    <div class="large-4 columns">
+      <div class="project-intro">
+        <h4>Duration</h4>
+        <p><span>{{page.duration}}</p>
+        <h4>Type</h4>
+        <p><span>{{page.type}}</span></p>
+        <h4>Included</h4>
+        <p><span>{{page.included}}</span></p>
+        <h4>Not ncluded</h4>
+        <p><span>{{page.not included}}</span></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
