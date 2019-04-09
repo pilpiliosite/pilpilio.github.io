@@ -63,9 +63,11 @@ members:
 
         <div class="spacing"></div>
         <h2></h2>
+        {% for member in page.members %}
         <div class="member">
           <img src="{{site.url}}/{{member.avatar}}" alt="">
         </div>
+        {% endfor %}
 
       </div>
     </div>
