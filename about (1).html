@@ -1,0 +1,86 @@
+---
+layout: default
+section_id: pages
+members:
+  - name: Ucha
+    avatar: images/team/ucha.png
+    avatar_hover: images/team/ucha.png
+  - name: Lela
+    avatar: images/team/lela.png
+    avatar_hover: images/team/lela.png
+  - name: Rati
+    avatar: images/team/rati.png
+    avatar_hover: images/team/rati.png
+  - name: Davit
+    avatar: images/team/davit.png
+    avatar_hover: images/team/davit.png
+---
+
+<div class="full centered-text tree">
+  <div class="four spacing"></div>
+  <div class="section-title">
+    <div class="row">
+      <div class="medium-10 medium-centered columns ">
+
+        <h1 class="wow slideInUp white">About</h1>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="medium-9 medium-centered columns">
+      <div class="header-quote">
+        <p></p>
+      </div>
+    </div>
+  </div>
+  <div class="two spacing"></div>
+</div>
+<div class="full">
+  <div class="section-title small">
+    <div class="row">
+      <div class="medium-10 medium-centered columns">
+
+        <div class="spacing"></div>
+        <h2>Who is Pilpilio?</h2>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="medium-12 medim-centered columns">
+      <p class="big-text">
+       We are a young team that has a simple goal: To show you the best out of Georgia. We will introduce you its beautiful nature, rich culture, share the tales about its past and help you to understand the most recent development or even find investment and business opportunities. We have lived in various places, travelled the world, seen numerous of its wonders, hiked dozens of mountains and worked with many international groups. Then we decided to come back to Georgia and design and curate beautiful experiences for those who are coming to see our country. We know the best of what our country has to offer. We are ready to experiment, offer you an adventure and a peek to the backstage, behind the usual tourist facades. At the same time, we recognise the highest standards of the services that we offer to our clients. We take the responsibility, so you can relax and enjoy.
+      </p>
+    </div>
+  </div>
+</div>
+<div class="full centered-text light-grey">
+  <div class="section-title">
+    <div class="row">
+      <div class="medium-10 medium-centered columns">
+        <h2>The team</h2>
+        <p></p>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    {% for member in page.members %}
+      <div class="large-3 columns">
+        <div class="member">
+          <img src="{{site.url}}/{{member.avatar}}" alt="">
+          <img class="colored" src="{{site.url}}/{{member.avatar_hover}}" alt="">
+          <div class="member-info">
+            <h4>{{member.name}}</h4>
+            <p class="position">{{member.position}}</p>
+            <ul class="socials">
+              {% for social in member.socials %}
+                <li><a href="{{social.url}}"><i class="fa fa-{{social.name}}"></i></a></li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+</div>
