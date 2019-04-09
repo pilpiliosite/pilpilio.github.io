@@ -366,7 +366,7 @@ body {
   position: absolute;
   z-index: 99; }
   .contain-to-grid .top-bar {
-    background: transparent;
+    background: #000000a3;
     max-width: 100%; }
 
 .top-bar-section ul li > a {
