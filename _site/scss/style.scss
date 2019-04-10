@@ -363,7 +363,7 @@ body {
   a {
     color: #333;
     font-size: 18px;
-    font-family: "josefin sans";
+    font-family: "Noto Sans";
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 10px;
@@ -409,7 +409,7 @@ body {
 }
 
 .top-bar-section ul li > a {
-  font-family: "josefin sans";
+  font-family: "Noto Sans";
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -417,7 +417,7 @@ body {
 
 .top-bar-section li:not(.has-form).has-dropdown .dropdown a:not(.button) {
   line-height: 45px;
-  font-family: "josefin sans";
+  font-family: "Noto Sans";
   text-transform: capitalize;
 }
 
@@ -1430,7 +1430,7 @@ form.update-form {
   // font-style: italic;
   font-weight: normal;
   text-transform: capitalize;
-  font-family: "josefin sans";
+  font-family: "Noto Sans";
   margin-bottom: 10px;
   letter-spacing: 1px;
 }
