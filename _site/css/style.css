@@ -77,7 +77,7 @@
   background-repeat: no-repeat;
   background-position: center 100%;
   background-attachment: fixed; }
-      
+
 .full.logo {
   min-height: 100%;
   background-image: url(../images/3.png);
@@ -85,11 +85,12 @@
   background-position: center 100%;
   background-attachment: fixed; }
 
-.full.lamp {
-  min-height: 60%;
-  background-image: url(../images/@stock/lamp.png);
+.full.back {
+  position: relative;
+  min-height: 100%;
+  background-image: url(../images/back.jpg);
   background-repeat: no-repeat;
-  background-position: 80% 10%;
+  background-position: center 100%;
   background-attachment: fixed; }
 
 .full.white-light {

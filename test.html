@@ -1,0 +1,239 @@
+---
+layout: default
+section_id: home
+slides:
+- layout: default
+  title: Welcome
+  image: images/3.png
+  background: images/1.jpg
+- layout: alt
+  title: Spiced Up Tours
+  image_bottom: images//arrows.png
+  background: images/7a.jpg
+
+principles_left:
+- title: Spiced up Tours
+  content: Pilpili means pepper. In our tours, you will find an extra flavour, beyond the standard tourist experience. Whether you are a nature lover, keen about traditional music, or political situation, we will work with you to meet your interests.
+  icon: icon-basic-map
+principles_left1:
+- title: Flexible and personal
+  content: Would you like to visit a place or have an experience which you didn’t find in one of our tours? Organise a business tour? Let us know and we will do our best to find the most satisfying personalised solutions for you!
+  icon: icon-arrows-shrink
+principles_right:
+- title: Socially responsible
+  content: We want to make sure that both our clients and the local community benefit from the growth of the tourism in Georgia. We work with the local businesses, stay with local people and make sure to avoid the tourist traps during all our trips
+  icon: icon-basic-heart
+principles_right1:
+- title: Environmentally conscious
+  content: We believe that nature is Georgia’s biggest treasure and we do all we can to protect it. “Leave no trace” is an important part of our philosophy, especially in mountains. We ensure that our tours are organised with the highest respect to the natural environment.
+  icon: icon-basic-world
+
+
+
+---
+
+<div class="full back">
+  </div>
+
+<div class="full">
+  <div class="section-title">
+    <div class="row">
+      <div class="medium-10 medium-centered columns">
+        <h2>Tours</h2>
+      </div>
+    </div>
+  </div>
+  <div class="related-works">
+    <div class="row">
+      <div class="large-4 columns">
+        <div class="work-wrapper">
+          <a href="HikinginSvaneti.html" class="work">
+            <img src="images/HikinginSvaneti/Mestia.jpg" alt="">
+            <div class="info">
+              <h3>Hiking in Svaneti</h3>
+              <p>Adventure - 5 Days</p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="large-4 columns">
+        <div class="work-wrapper">
+          <a href="luxuriousculturaltour.html" class="work">
+          <img src="images/luxuriousculturaltour/Tbilisi.jpg" alt="">
+          <div class="info">
+            <h3>Luxurious Cultural Tour</h3>
+            <p>VIP Tour - 7 Days</p>
+          </div>
+        </a>
+        </div>
+      </div>
+      <div class="large-4 columns">
+        <div class="work-wrapper">
+          <a href="mountainsandvalleys.html" class="work">
+            <img src="images/mountainsandvalleys/Borjomi.jpg" alt="">
+            <div class="info">
+              <h3>Mountains and Valleys</h3>
+              <p>Cultural - 8 Days</p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="large-4 columns">
+        <div class="work-wrapper">
+          <a href="mountainsandvalleys.html" class="work">
+            <img src="images/mountainsandvalleys/Borjomi.jpg" alt="">
+            <div class="info">
+              <h3>Mountains and Valleys</h3>
+              <p>Cultural - 8 Days</p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="large-4 columns">
+        <div class="work-wrapper">
+          <a href="mountainsandvalleys.html" class="work">
+            <img src="images/mountainsandvalleys/Borjomi.jpg" alt="">
+            <div class="info">
+              <h3>Mountains and Valleys</h3>
+              <p>Cultural - 8 Days</p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="large-4 columns">
+        <div class="work-wrapper">
+          <a href="mountainsandvalleys.html" class="work">
+            <img src="images/mountainsandvalleys/Borjomi.jpg" alt="">
+            <div class="info">
+              <h3>Mountains and Valleys</h3>
+              <p>Cultural - 8 Days</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="centered-text">
+          <a href="{{site.url}}/tours.html" class="button brown boxed">Discover More Tours</a>
+        </div>
+    </div>
+    <div class="four spacing"></div>
+
+    <div class="full centered-text tree">
+      <div class="section-title">
+        <div class="row">
+          <div class="medium-10 medium-centered columns">
+            <h2 class="wow slideInUp white">We customize tours for you, and create unique experiences</h2>
+          </div>
+          <div class="four spacing"></div>
+
+          <div class="centered-text">
+                <a href="{{site.url}}/contact.html" class="button boxed">Contact us</a>
+              </div>
+        </div>
+      </div>
+    </div>
+<div class="full centered-text">
+  <div class="section-title">
+    <div class="row">
+      <div class="medium-10 medium-centered columns">
+        <h2>Our values</h2>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="large-3 columns">
+    {% for principle in page.principles_left %}
+    <div class="quote reverse wow slideInLeft" class="wow" data-wow-delay="{{ 0.2 | times:forloop.index0 }}s">
+        <div class="row">
+          <div class="large-12 columns">
+              <div class="principle">
+                  <div class=" centered-text">
+                  <i class="{{principle.icon}}"author"></i>
+                </div>
+                <div class=" centered-text">
+
+                  <i class=>{{principle.title}}</i>
+                </div>
+
+                </div>
+          </div>
+          <div class="small-12 columns">
+            <p>{{principle.content}}</p>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+  <div class="large-3 columns">
+    {% for principle in page.principles_left1 %}
+    <div class="quote reverse wow slideInLeft" class="wow" data-wow-delay="{{ 0.2 | times:forloop.index0 }}s">
+        <div class="row">
+          <div class="large-12 columns">
+              <div class="principle">
+                  <div class=" centered-text">
+                  <i class="{{principle.icon}}"author"></i>
+                </div>
+                <div class=" centered-text">
+
+                  <i class=>{{principle.title}}</i>
+                </div>
+
+                </div>
+          </div>
+          <div class="small-12 columns">
+            <p>{{principle.content}}</p>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+  <div class="large-3 columns">
+    {% for principle in page.principles_right %}
+      <div class="quote reverse wow slideInRight" class="wow" data-wow-delay="{{ 0.2 | times:forloop.index0 }}s">
+          <div class="row">
+              <div class="large-12 columns">
+                  <div class="principle">
+                      <div class=" centered-text">
+                          <i class="{{principle.icon}}"author"></i>
+                        </div>
+                        <div class=" centered-text">
+
+                          <i class=>{{principle.title}}</i>
+                        </div>
+
+                        </div>
+                  </div>
+              <div class="small-12 columns">
+                <p>{{principle.content}}</p>
+              </div>
+            </div>
+          </div>
+    {% endfor %}
+  </div>
+  <div class="large-3 columns">
+    {% for principle in page.principles_right1 %}
+      <div class="quote reverse wow slideInRight" class="wow" data-wow-delay="{{ 0.2 | times:forloop.index0 }}s">
+          <div class="row">
+              <div class="large-12 columns">
+                  <div class="principle">
+                      <div class=" centered-text">
+                          <i class="{{principle.icon}}"author"></i>
+                        </div>
+                        <div class=" centered-text">
+
+                          <i class=>{{principle.title}}</i>
+                        </div>
+
+                        </div>
+                  </div>
+              <div class="small-12 columns">
+                <p>{{principle.content}}</p>
+              </div>
+            </div>
+          </div>
+    {% endfor %}
+  </div>
+
+</div>
+</div>
