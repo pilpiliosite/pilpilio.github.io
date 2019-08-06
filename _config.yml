@@ -24,8 +24,3 @@ gems:
 
 paginate: 6
 paginate_path: "blog/page:num"
-
- analytics:
-  		provider: "google-universal"
-  	google:
- 	tracking_id: "UA-145192055-1"
