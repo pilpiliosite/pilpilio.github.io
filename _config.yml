@@ -18,11 +18,11 @@ github_username:  jekyll
 markdown: kramdown
 
 
-whitelist: [jekyll-analytics]
-plugins:
-  - jekyll-analytics :
+gems:
   - jekyll-paginate
   - jekyll-compose
+whitelist: [jekyll-analytics]
+plugins:
   - jekyll-analytics
 
 paginate: 6
@@ -31,11 +31,3 @@ paginate_path: "blog/page:num"
 jekyll_analytics:
   GoogleAnalytics:          # Add, if you want to track with Google Analytics
     id: UA-145192055-1      # Required - replace with your tracking id
-whitelist: [jekyll-analytics]
-plugins:
-  - jekyll-analytics
-  - github-pages
-  - jekyll-paginate
-  - jekyll-compose
-  - jekyll-analytics
-  - jekyll-admin
