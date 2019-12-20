@@ -106,7 +106,6 @@ GEM
       jekyll (~> 3.3)
       sinatra (~> 1.4)
       sinatra-contrib (~> 1.4)
-    jekyll-analytics (0.1.11)
     jekyll-avatar (0.6.0)
       jekyll (~> 3.0)
     jekyll-coffeescript (1.1.1)
@@ -222,7 +221,7 @@ GEM
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (3.0.3)
-    rack (1.6.11)
+    rack (1.6.12)
     rack-protection (1.5.5)
       rack
     rack-test (1.1.0)
@@ -271,7 +270,6 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll-admin
-  jekyll-analytics
   jekyll-compose
   jekyll-paginate
 
