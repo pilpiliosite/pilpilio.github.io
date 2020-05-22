@@ -74,15 +74,17 @@ members:
     {% for member in page.members %}
     <div class="row">
 
-      <div class="large-8 columns">
+      <div class="large-4 columns">
         <div class="member">
           <img src="{{site.url}}/{{member.avatar}}" alt="">
           <img class="colored" src="{{site.url}}/{{member.avatar_hover}}" alt="">
         </div>
+      </div>
+
         <div class="centered-text">
           <div class="member-info">
             <h4>{{member.name}}</h4>
-                  <div class="large-4 columns">
+                  <div class="large-8 columns">
             <p class="position">{{member.position}}</p>
                   </div>
             <ul class="socials">
